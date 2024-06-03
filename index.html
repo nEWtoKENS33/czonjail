@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CZ ON JAIL | $29665245</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-color: #858a78;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content img {
+            width: 300px;
+            height: 500px;
+            cursor: pointer;
+            margin: 0 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 2em;
+        }
+        h3{
+            font-size: 50px;
+        }
+        h4{
+            margin: 0 40px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>CZ IS CALLIN' YOU! CLICK ON THE PHONE TO HEAR HIM</h1>
+    <div class="content">
+        <img id="image" src="phone1.png" alt="">
+        <img id="image2" src="CLICK.png" alt="Imagen 2">
+    </div>
+
+    <div class="content">
+       <a href="https://t.me/cz29665245" target="_blank"><h3>Telegram</h3></a> 
+        <h4></h4>
+        <a href="https://x.com/_29665245_" target="_blank"><h3>Twitter</h3></a>
+        <h4></h4>
+        <a href="https://pump.fun" target="_blank"><h3>PumpFun</h3></a>
+    </div>
+
+    <audio id="audio" src="music.mp3"></audio>
+
+    <script>
+        const imageElement = document.getElementById('image');
+        const audioElement = document.getElementById('audio');
+
+        imageElement.addEventListener('click', () => {
+            // Reproducir el audio
+            audioElement.play();
+            
+            // Cambiar la imagen a un GIF
+            imageElement.src = '5555.gif';
+        });
+    </script>
+</body>
+</html>
